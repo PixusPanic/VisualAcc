@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ada Phoebe\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisAcc\\VisAcc.csproj": {}
+    "C:\\Users\\Elijah\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisualAcc\\VisAcc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ada Phoebe\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisAcc\\VisAcc.csproj": {
+    "C:\\Users\\Elijah\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisualAcc\\VisAcc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ada Phoebe\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisAcc\\VisAcc.csproj",
+        "projectUniqueName": "C:\\Users\\Elijah\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisualAcc\\VisAcc.csproj",
         "projectName": "VisAcc",
-        "projectPath": "C:\\Users\\Ada Phoebe\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisAcc\\VisAcc.csproj",
-        "packagesPath": "C:\\Users\\Ada Phoebe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ada Phoebe\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisAcc\\obj\\",
+        "projectPath": "C:\\Users\\Elijah\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisualAcc\\VisAcc.csproj",
+        "packagesPath": "C:\\Users\\Elijah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Elijah\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisualAcc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ada Phoebe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Elijah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -39,17 +39,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "tModLoader.CodeAssist": {
-              "target": "Package",
-              "version": "[0.1.*, )"
-            }
-          },
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -66,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.317/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

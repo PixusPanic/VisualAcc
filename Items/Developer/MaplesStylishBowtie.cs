@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Terraria;
-using Terraria.ModLoader;
 using Terraria.ID;
+using Terraria.ModLoader;
 
-namespace VisAcc.Items {
+namespace VisualAcc.Items.Developer
+{
     [AutoloadEquip(EquipType.Neck)]
     public class MaplesStylishBowtie : ModItem {
         public override void ModifyTooltips(List<TooltipLine> tooltips) {
@@ -19,6 +20,11 @@ namespace VisAcc.Items {
             Item.value = Item.sellPrice(0, 0, 91, 79);
             Item.rare = ItemRarityID.Orange;
             Item.vanity = true;
+        }
+        
+        public override bool IsLoadingEnabled(Mod mod)
+        {
+            return ModContent.GetInstance<VisualAccConfig>().DeveloperSets;
         }
 	}
 }

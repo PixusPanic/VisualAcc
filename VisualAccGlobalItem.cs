@@ -2,8 +2,8 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace VisAcc {
-    public class VisAccGlobalItem : GlobalItem {
+namespace VisualAcc {
+    public class VisualAccGlobalItem : GlobalItem {
         public override void SetDefaults(Item item)  {
             // By setting the item's [x]slot fields, the equips are automatically added to the player and follow normal equip logic.
             switch (item.type) {
@@ -476,7 +476,7 @@ namespace VisAcc {
             UpdateFishingEffects(item, player);
 
         private static void UpdateFishingEffects(Item item, Player player) {
-            VisAccPlayer modPlayer = player.GetModPlayer<VisAccPlayer>();
+            VisualAccPlayer modPlayer = player.GetModPlayer<VisualAccPlayer>();
 
             if (item.type == ItemID.LavaproofTackleBag || item.type == ItemID.AnglerTackleBag || item.type == ItemID.HighTestFishingLine)
                 modPlayer.highTest = true;

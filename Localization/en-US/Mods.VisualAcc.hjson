@@ -1,11 +1,11 @@
 Items: {
 	ArmorPolishDye: {
 		DisplayName: Armor Polish Dye
-		Tooltip: Unobtainable, only used to set an ID for the dye to be used when necessary
+		Tooltip: Polishes your equipment with a shiny sheen
 	}
 
-	CatEars: {
-		DisplayName: Cat Ears
+	IlluminyantCatEars: {
+		DisplayName: Illuminyant Cat Ears
 		Tooltip:
 			'''
 			Glows in the dark!
@@ -13,17 +13,12 @@ Items: {
 			'''
 	}
 
-	MathewsStylishBowtie: {
+	MaplesStylishBowtie: {
 		DisplayName: Maple's Stylish Bowtie
 		Tooltip:
 			'''
 			Great for impersonating idiots!
 			Dev Item
 			'''
-	}
-
-	MaplesStylishBowtie: {
-		DisplayName: Maples Stylish Bowtie
-		Tooltip: ""
 	}
 }

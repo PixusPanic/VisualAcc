@@ -1,3 +1,5 @@
-displayName = [c/93FFE3:Visual Accessories]
-author = Maple, Reika
-version = 1.2
+displayName = Visual Accessories (Unofficial Port)
+author = Maple, Reika, Pixus
+version = 1.0
+includeSource = true
+buildIgnore = Textures/Example/*

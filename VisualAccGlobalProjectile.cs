@@ -8,21 +8,21 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace VisAcc {
-	public class VisAccGlobalProjectile : GlobalProjectile {
+namespace VisualAcc {
+	public class VisualAccGlobalProjectile : GlobalProjectile {
         // Checks if a bobber was created and if any fishing item is equipped, resets both fishing vars
         public override void OnSpawn(Projectile projectile, IEntitySource source) {
-            VisAccPlayer modPlayer = Main.LocalPlayer.GetModPlayer<VisAccPlayer>();
+            VisualAccPlayer modPlayer = Main.LocalPlayer.GetModPlayer<VisualAccPlayer>();
             modPlayer.lavaProof = false;
 			modPlayer.highTest = false;
 		}
 
 		// Draws the bobber/hook
 		public override bool PreDraw(Projectile projectile, ref Color drawColor) {
-            VisAccPlayer modPlayer = Main.LocalPlayer.GetModPlayer<VisAccPlayer>();
+            VisualAccPlayer modPlayer = Main.LocalPlayer.GetModPlayer<VisualAccPlayer>();
             if (modPlayer.lavaProof && projectile.bobber) {
 				Main.instance.LoadProjectile(projectile.type);
-				Texture2D hook = ModContent.Request<Texture2D>("VisAcc/Textures/LavaProofFishingHook").Value;
+				Texture2D hook = ModContent.Request<Texture2D>("VisualAcc/Textures/Vanilla/Fishing/LavaProofFishingHook").Value;
 				Vector2 drawOrigin = new(hook.Width / 2, hook.Height / 2);
 				Main.EntitySpriteDraw(hook, projectile.position - Main.screenPosition + new Vector2(15, 7), hook.Bounds, drawColor, projectile.rotation,
 					drawOrigin, projectile.scale, SpriteEffects.None, 0);

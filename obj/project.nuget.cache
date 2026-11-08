@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F2bGLj2o/yQSK6Adh30ctteFPTMbme+vPgClemdw4t8L+mMGAnYeO5MJuuP5xxdPIxwKiWzIuhwGJyUb0WSdsQ==",
+  "dgSpecHash": "jeK4yILz2Bw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ada Phoebe\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisAcc\\VisAcc.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Ada Phoebe\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Elijah\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\VisualAcc\\VisualAcc.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,17 @@
+VisualAccConfig: {
+	DisplayName: Visual Accessories Config
+
+	DeveloperSets: {
+		Label: Developer Sets
+		Tooltip:
+			'''
+			Toggles loading of custom items for VisualAcc developers.
+			This includes Reika's Illuminyant Cat Ears and Maple's Stylish Bowtie.
+			'''
+	}
+
+	Debug: {
+		Label: Debug messages
+		Tooltip: Toggles if debug messages (such as if an item texture is not found) should be output to client.log.
+	}
+}
